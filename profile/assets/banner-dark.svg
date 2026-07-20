@@ -1,0 +1,39 @@
+<svg width="880" height="230" viewBox="0 0 880 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Max Assist – AI-platform voor het Nederlandse mbo-onderwijs">
+  <defs>
+    <linearGradient id="maxassist-mark-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="maxassist-accent-dark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="maxassist-halo-dark" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- soft halo behind the mark -->
+  <circle cx="440" cy="58" r="62" fill="url(#maxassist-halo-dark)"/>
+
+  <!-- mark: rounded tile with AI spark -->
+  <rect x="412" y="30" width="56" height="56" rx="15" fill="url(#maxassist-mark-dark)"/>
+  <path d="M440 40 C442.6 51 446.5 54.5 456 58 C446.5 61.5 442.6 65 440 76 C437.4 65 433.5 61.5 424 58 C433.5 54.5 437.4 51 440 40 Z" fill="#FFFFFF"/>
+  <circle cx="453.5" cy="44.5" r="2.3" fill="#FFFFFF" opacity="0.85"/>
+
+  <!-- wordmark -->
+  <text x="440" y="148" text-anchor="middle"
+        font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="48" font-weight="800" letter-spacing="-1.2"
+        fill="#F0F6FC">Max Assist</text>
+
+  <!-- tagline -->
+  <text x="440" y="180" text-anchor="middle"
+        font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="16.5" font-weight="500" letter-spacing="0.2"
+        fill="#9AA4B2">AI-platform voor het Nederlandse mbo-onderwijs</text>
+
+  <!-- gradient accent -->
+  <rect x="408" y="196" width="64" height="3" rx="1.5" fill="url(#maxassist-accent-dark)"/>
+</svg>
